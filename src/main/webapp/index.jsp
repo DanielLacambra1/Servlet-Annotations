@@ -7,12 +7,15 @@
 <title>Index page</title>
 </head>
 <body>
-	<form action="/welcome" method="post">
-		<span>nombre:</span> <input type="text" name="nombre"> <br />
-		<span>apellido:</span> <input type="text" name="apellido"> <br />
-		<span>dni:</span> <input type="text" name="dni"> <br />
-		<input type="submit">
-	</form>
+	<a href="/Simple">Ejemplo simple de una clase Servlet con anotaciones</a> </br></br>
+	<a href="/processForm">Ejemplo MyServlet</a> </br></br>
+	<a href="/processServlet">Ejemplo MyServlet2</a> </br></br>
 	
+	<a href="/foo">Ejemplo MyServlet3UrlPatterns foo </a> </br></br>
+	<a href="/bar">Ejemplo MyServlet3UrlPatterns bar </a> </br></br>
+	<a href="/cool">Ejemplo MyServlet3UrlPatterns cool</a> </br></br>
+	
+	<a href="/imageUpload">Ejemplo ImageUploadServlet</a> </br></br>
+	<a href="/myController">Ejemplo StartupServlet</a> </br></br>
 </body>
 </html>
